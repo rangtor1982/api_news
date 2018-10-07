@@ -21,7 +21,7 @@ class PostController extends Controller
     protected function verbs(){
         return [
             'create' => ['POST'],
-            'update' => ['PUT', 'PATCH','POST'],
+            'update' => ['PUT', 'PATCH'],
             'delete' => ['DELETE'],
             'view' => ['GET'],
             'index'=>['GET'],
